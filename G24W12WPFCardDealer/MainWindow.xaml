@@ -19,26 +19,31 @@
                 x:Name="Card1"
                 Stretch="Uniform"
                 Height="400"
+                Source="{Binding CardResources[0]}"
             />
             <Image
                 x:Name="Card2"
                 Stretch="Uniform"
                 Height="400"
+                Source="{Binding CardResources[1]}"
             />
             <Image
                 x:Name="Card3"
                 Stretch="Uniform"
                 Height="400"
+                Source="{Binding CardResources[2]}"
             />
             <Image
                 x:Name="Card4"
                 Stretch="Uniform"
                 Height="400"
+                Source="{Binding CardResources[3]}"
             />
             <Image
                 x:Name="Card5"
                 Height="400"
                 Stretch="Uniform"
+                Source="{Binding CardResources[4]}"
             />
             
          
